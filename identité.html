@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulaire</title>
+        <meta charset="utf-8">
+         
+        <style>
+            fieldset{
+                background-color: #c0c0c0;
+                border: 0px;
+                padding: 50px;
+                margin: 100px;
+                width: 400px;
+                height: 500px;
+            }
+         
+            form{
+                padding: 50px;
+                margin: 100px;
+                width: 400px;
+                height: 300px;
+                
+            }
+            label{
+                 display:block; 
+                 width:60px;
+                 float:left;
+                 text-align: right;
+                 padding: 5px;
+            }
+           
+            #sub{
+               
+                float: right;
+                text-align: center;
+                margin-right: 250px;
+            }
+            #an{
+                float: right;
+                margin: 5px;
+                margin-right: 270px;
+            } 
+        </style>
+    </head>
+    <fieldset>
+    <body>
+
+                <strong>Femme</strong>
+                <input type="radio" name="genre" value="Feminin">
+                <strong>Homme</strong>
+                <input type="radio" name="genre" value="Masculin"></br><br>
+        <form> 
+                <div>
+                <label>Prenom</label> 
+                <input type="text" name="prenom"><br><br>
+                </div>
+
+                <div>
+                <label>Nom</label>
+                <input type="text" name="nom"><br><br>
+                </div> 
+                    
+                <label>Email</label>
+                <input type="email" name="email"><br><br>
+                     
+                <label>Message</label>
+                <textarea name="message" rows="8" cols="30"></textarea><br><br>
+
+                <div>
+                <input type="submit" value="soumettres" id="sub"><br><br>
+                </div>
+
+                <div>
+                <input type="submit" value="Annuler" id="an">
+                </div>
+                    
+        </form>    
+    </body>
+    </fieldset>
+</html>

@@ -1,0 +1,144 @@
+/*header*/
+
+.dropdown-item{
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+li a: hover{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+ul li a:hover{
+    color: white;
+}
+ a{
+    padding: 15px;
+    font: 14px "Helvetica Neue", Helvetica, Arial, serif;
+ }
+   
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+/* background image */
+
+.image {
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: -23px;
+}
+
+.btn-now{
+    background-color: #ff8c00;
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/*deuxieme parti*/
+.h2{
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Open sans, Helvetica, Arial;
+    opacity: 0.9;
+}
+.the{
+    color: #888;
+    text-align: center;
+    font-family: Open sans, Helvetica, Arial;
+    font-size: 15px;
+}
+.max{
+    background-color: #F7F5F4;
+}
+.h3{
+    color: #382526;
+    text-align: center;
+}
+.fa-cogs{
+    text-align: center;
+    width: 250px;
+   
+}
+.fa-flash{
+    text-align: center;
+    width: 250px;
+}
+.fa-heart{
+    text-align: center;
+    width: 250px;
+}
+.fa-smile-o{
+    text-align: center;
+    width: 250px;
+}
+.ppp{
+    color: #333333;
+    font: 14px "Helvetica Neue" Helvetica, Arial, serif;
+}
+
+.btn-now2{
+    background-color: #ff8c00;
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 875px;
+}
+.AB{
+    font-family: "Open sans", Helvetica, Arial;
+    font-size: 36px;
+}
+
+.sec{
+    margin-top: 100px;
+}
+.side{
+    margin-top: 40px;
+}
+.for{
+    padding: 6px; 
+    width: 260px;
+}
+.form{
+    padding: 6px;
+    margin-left: -100px;
+    width: 260px;
+}
+.forms{
+    padding: 6px;
+    margin-left: -200px;
+    width: 260px;
+}
+
+#nom{
+    width: 96%;
+    margin-left: 10px;
+    padding: 7px;
+}
+#password{
+    width: 96%;
+    margin-left: 10px;
+    padding: 7px;
+}
+.btn-now02{
+    background-color: #ff8c00;
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 875px;
+}
